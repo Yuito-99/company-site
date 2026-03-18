@@ -1,51 +1,76 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="○○株式会社の公式サイトです。">
-  <title>○○株式会社｜公式サイト</title>
-  <link rel="stylesheet" href="assets/css/style.css">
-  <script defer src="assets/js/main.js"></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Company</title>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/styles.css">
 </head>
+
 <body>
+	<header class="header">
+		<div class="container nav">
+			<h1 class="logo">Company</h1>
+			<ul class="nav-list">
+			<li><a href="#service">事業内容</a></li>
+			<li><a href="#about">会社概要</a></li>
+			<li><a href="#contact">お問い合わせ</a></li>
+			</ul>
+		</div>
+		</header>
 
-  <!-- Header -->
-  <header class="site-header">
-    <div class="container">
-      <h1 class="logo"><a href="index.html">○○株式会社</a></h1>
-      <nav class="main-nav">
-        <ul>
-          <li><a href="index.html">ホーム</a></li>
-          <li><a href="company.html">企業情報</a></li>
-          <li><a href="#">サービス</a></li>
-          <li><a href="#">お問い合わせ</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+		<section class="hero">
+		<div class="hero-inner">
+			<h2>企業の成長を加速する
+		Webソリューション</h2>
+			<p>開発・インフラ・運用までワンストップで提供します</p>
+			<a href="#contact" class="btn">お問い合わせ</a>
+		</div>
+		</section>
 
-  <!-- Main -->
-  <main class="main-content container">
-    <section class="hero">
-      <h2>人と技術で未来を創る</h2>
-      <p>○○株式会社は、ITソリューションを通じて社会の発展に貢献します。</p>
-      <a href="company.html" class="btn">会社概要を見る</a>
-    </section>
+		<section id="service" class="section">
+		<h2 class="section-title">事業内容</h2>
+		<div class="container grid">
+			<div class="card fade">
+			<h3>Web開発</h3>
+			<p>業務効率化・売上向上に貢献するシステムを構築</p>
+			</div>
+			<div class="card fade">
+			<h3>クラウド</h3>
+			<p>AWS/GCPを活用したスケーラブルな環境構築</p>
+			</div>
+			<div class="card fade">
+			<h3>コンサル</h3>
+			<p>課題分析から改善提案まで伴走支援</p>
+			</div>
+		</div>
+		</section>
 
-    <section class="news">
-      <h3>お知らせ</h3>
-      <ul>
-        <li>2025/10/01　新サービス「×××」をリリースしました。</li>
-        <li>2025/09/20　ホームページをリニューアルしました。</li>
-      </ul>
-    </section>
-  </main>
+		<section id="about" class="section bg-light">
+		<h2 class="section-title">会社概要</h2>
+		<div class="container">
+			<table class="table">
+			<tr><th>会社名</th><td>株式会社サンプル</td></tr>
+			<tr><th>設立</th><td>2020年</td></tr>
+			<tr><th>所在地</th><td>東京都</td></tr>
+			<tr><th>代表</th><td>山田 太郎</td></tr>
+			</table>
+		</div>
+		</section>
 
-  <!-- Footer -->
-  <footer class="site-footer">
-    <p>&copy; 2025 ○○株式会社 All Rights Reserved.</p>
-  </footer>
+		<section id="contact" class="section">
+		<h2 class="section-title">お問い合わせ</h2>
+		<div class="container center">
+			<p>お気軽にご相談ください</p>
+			<a href="mailto:info@example.com" class="btn">メールで問い合わせ</a>
+		</div>
+		</section>
 
-</body>
+		<footer class="footer">
+		<p>© 2026 Company Inc.</p>
+		</footer>
+
+		<script src="assets/js/main.js"></script>
+	</body>
 </html>
