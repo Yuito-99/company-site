@@ -10,26 +10,32 @@
 </head>
 
 <body>
+	<!-- ヘッダー -->
 	<header class="header">
 		<div class="container nav">
 			<h1 class="logo">Company</h1>
+			<button class="menu-btn">☰</button>
+			<div class="overlay"></div>
 			<ul class="nav-list">
 				<li><a href="#service">事業内容</a></li>
+				<li><a href="#works">実績</a></li>
 				<li><a href="#about">会社概要</a></li>
 				<li><a href="#contact">お問い合わせ</a></li>
 			</ul>
 		</div>
 	</header>
 
+	<!-- ヒーローセクション -->
 	<section class="hero">
 		<div class="hero-inner">
 			<h2>企業の成長を加速する
 				Webソリューション</h2>
 			<p>開発・インフラ・運用までワンストップで提供します</p>
-			<a href="#contact" class="btn">お問い合わせ</a>
+			<!-- <a href="#contact" class="btn">お問い合わせ</a> -->
 		</div>
 	</section>
 
+	<!-- 事業内容セクション -->
 	<section id="service" class="section">
 		<h2 class="section-title">事業内容</h2>
 		<div class="container grid">
@@ -48,6 +54,7 @@
 		</div>
 	</section>
 
+	<!-- 実績セクション -->
 	<section id="works" class="section">
 		<h2 class="section-title">実績</h2>
 		<div class="container grid">
@@ -66,7 +73,8 @@
 		</div>
 	</section>
 
-	<section id="about" class="section bg-light">
+	<!-- 会社概要セクション -->
+	<section id="about" class="section">
 		<h2 class="section-title">会社概要</h2>
 		<div class="container">
 			<table class="table">
@@ -97,18 +105,21 @@
 		</div>
 	</section>
 
+	<!-- お問い合わせセクション -->
 	<section id="contact" class="section">
 		<h2 class="section-title">お問い合わせ</h2>
-		<div class="container center">
-			<p>お気軽にご相談ください</p>
+		<div class="container contact-box">
+			<p class="contact-text">お気軽にご相談ください</p>
 			<a href="mailto:info@example.com" class="btn">メールで問い合わせ</a>
 		</div>
 	</section>
 
+	<!-- フッター -->
 	<footer class="footer">
 		<p>© 2026 Company Inc.</p>
 	</footer>
 
+	<!-- JavaScript -->
 	<script src="assets/js/main.js"></script>
 </body>
 
