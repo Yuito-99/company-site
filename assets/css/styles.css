@@ -53,6 +53,7 @@ body {
 	align-items: center;
 	text-align: center;
 	background: linear-gradient(135deg, var(--main-color), var(--accent-color));
+	background: url('../img/main.jpg') center/cover no-repeat;
 	color: white;
 }
 
